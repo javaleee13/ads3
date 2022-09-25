@@ -1,6 +1,5 @@
-FROM mauros5/9hits_autoinstall:latest
+FROM mauros5/9hits_autoinstall
 
-RUN apt-get update 
 RUN apt-get install –y nginx
 
 
